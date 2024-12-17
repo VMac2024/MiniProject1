@@ -1,0 +1,177 @@
+/*CSS Code for google font "satisfy*/
+.satisfy-regular {
+  font-family: "Satisfy", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*CSS Code for google font "lato" - NOTE TO SELF - look at culling irrelevant types from this!*/
+.lato-thin {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.lato-light {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.lato-black {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.lato-thin-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.lato-light-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.lato-regular-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.lato-bold-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.lato-black-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.headerBar {
+  background-color: #52a4c8;
+  font-family: "satisfy";
+  color: white;
+  padding: 1em;
+  display: grid;
+  grid-template-columns: 2fr 8fr 2fr;
+}
+
+#logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5em;
+}
+
+#title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main {
+  display: grid;
+  grid-template-columns: 3fr 9fr;
+  gap: 1rem;
+}
+.leftSideBox {
+  width: 2em;
+}
+.infoBox {
+  background-color: #b7d1dc;
+  min-height: 50px;
+  min-width: 220px;
+  margin-top: 10px;
+  align-content: center;
+  padding-left: 10px;
+}
+
+.infoBox input {
+  padding-top: 5px;
+}
+.rightSideBox {
+  margin-top: 10px;
+}
+.stores {
+  width: 150px;
+  margin-top: 12px;
+  margin-left: 10px;
+  align-content: center;
+}
+#cardsContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1em;
+}
+.card {
+  width: 10em;
+  padding: 0.2em;
+  margin: 0.5em;
+  max-width: 250px;
+}
+
+.card-body {
+  text-align: center;
+  margin-top: 1px;
+}
+.card img {
+  min-height: 238px;
+}
+.card {
+  display: none;
+}
+.card.visible {
+  display: block;
+}
+.title {
+  padding-top: 0px;
+  --bs-card-title-spacer-y: 0em;
+  --bs-card-spacer-x: 0.5rem;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+.pagination {
+  justify-content: center;
+}
+.carousel-item {
+  height: 200px;
+  max-width: 760px;
+}
+.quote {
+  font-family: "satisfy";
+  font-size: xx-large;
+  margin-top: 20px;
+  text-align: center;
+}
+.btn-primary {
+  background-color: #b7d1dc !important;
+  color: black !important;
+}
+#coffeeimg {
+  max-width: 30em;
+}
+.filterDropdown {
+  background-color: #b7d1dc;
+  min-height: 50px;
+  min-width: 220px;
+  margin-top: 10px;
+  align-content: center;
+}
