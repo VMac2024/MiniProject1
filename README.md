@@ -34,7 +34,7 @@ A simple web app that fetches book data from an API, displays it, and provides s
 
 # Installation & Setup:
 
-Clone the GitHub file: git clone ...
+Clone the GitHub file: git clone: https://github.com/VMac2024/MiniProject1
 If using VS Code editor with the live server extension, open the folder in VS Code and click "Go Live" (at the bottom right corner)
 
 # Future improvements:
